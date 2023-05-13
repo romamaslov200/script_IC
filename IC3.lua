@@ -108,7 +108,7 @@ function main()
     if not isSampfuncsLoaded() or not isSampLoaded() then return end --
     sampRegisterChatCommand('ic', ic)
     while not isSampAvailable() do wait(0) end -- 
-    autoupdate("https://raw.githubusercontent.com/romamaslov200/IC/main/version.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/romamaslov200/IC/main/IC3.lua")
+    autoupdate("https://raw.githubusercontent.com/romamaslov200/script_IC/main/version.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/romamaslov200/script_IC/main/IC3.lua")
     while true do --
         wait(0) --
 
